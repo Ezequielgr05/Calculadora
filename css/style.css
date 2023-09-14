@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+.pantalla {
+    height: calc(29vh - 10px);
+    width: calc(100% - 12px);
+    background-color: rgb(210, 217, 223);
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.tecladoNormal {
+    width: calc(100% - 12px);
+    height: calc(100vh - 29vh - 20px);
+    display: grid;
+    grid-template-columns: repeat(4, 5fr);
+    grid-gap: 1px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+
+.btn-calculadora {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: rgb(15, 15, 15);
+    color: rgb(0, 132, 185);
+    font-size: 3rem;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.btn-calculadora:hover {
+    background: rgb(10, 10, 10);
+    color: rgb(0, 105, 146);
+}
+
+.igual {
+    background: rgb(0, 132, 185);
+    color: aliceblue;
+}
+
+.igual:hover {
+    background: rgb(0, 105, 146);
+    color: rgb(210, 217, 223);
+}
